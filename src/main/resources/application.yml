@@ -2,12 +2,12 @@ spring:
   application: pruebagmr
 
 server:
-  port: 8081
+  port: 8080
 
 logging:
   level:
     root: INFO
-    org.gmr.app.oraclemoonapp: DEBUG
+    org.gmr.pruebagmr: DEBUG
 
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{36} - %msg%n"
